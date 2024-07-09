@@ -4,11 +4,11 @@ package hello;
 
 // replace this with your own github username and repo
 // github.com/<username>/<repo>/protogen/go/... 
-option go_package = "github.com/timpamungkas/my-grpc-proto/protogen/go/hello";
+option go_package = "github.com/attachvishal/my-grpc-proto/protogen/go/hello";
 
 message HelloRequest { 
   string name = 1;
-  uint32 age = 17;
+  uint32 age = 19;
 }
 
 message HelloResponse { 
